@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08C96EBB2148A72500D51152 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C96EBA2148A72500D51152 /* AppDelegate.swift */; };
+		08C96EC02148A72500D51152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C96EBE2148A72500D51152 /* Main.storyboard */; };
+		08C96EC22148A72A00D51152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C96EC12148A72A00D51152 /* Assets.xcassets */; };
+		08C96EC52148A72A00D51152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C96EC32148A72A00D51152 /* LaunchScreen.storyboard */; };
+		08C96ED02148A72A00D51152 /* ProgrammaticAutoLayoutContraintsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C96ECF2148A72A00D51152 /* ProgrammaticAutoLayoutContraintsTests.swift */; };
+		08C96EDB2148A72A00D51152 /* ProgrammaticAutoLayoutContraintsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C96EDA2148A72A00D51152 /* ProgrammaticAutoLayoutContraintsUITests.swift */; };
+		08C96EE92148B1AC00D51152 /* AutoLayoutConstraintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C96EE82148B1AC00D51152 /* AutoLayoutConstraintsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08C96ECC2148A72A00D51152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08C96EAF2148A72400D51152 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08C96EB62148A72500D51152;
+			remoteInfo = ProgrammaticAutoLayoutContraints;
+		};
+		08C96ED72148A72A00D51152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08C96EAF2148A72400D51152 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08C96EB62148A72500D51152;
+			remoteInfo = ProgrammaticAutoLayoutContraints;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08C96EB72148A72500D51152 /* ProgrammaticAutoLayoutContraints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammaticAutoLayoutContraints.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C96EBA2148A72500D51152 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08C96EBF2148A72500D51152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08C96EC12148A72A00D51152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08C96EC42148A72A00D51152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08C96EC62148A72A00D51152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C96ECB2148A72A00D51152 /* ProgrammaticAutoLayoutContraintsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgrammaticAutoLayoutContraintsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C96ECF2148A72A00D51152 /* ProgrammaticAutoLayoutContraintsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticAutoLayoutContraintsTests.swift; sourceTree = "<group>"; };
+		08C96ED12148A72A00D51152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C96ED62148A72A00D51152 /* ProgrammaticAutoLayoutContraintsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgrammaticAutoLayoutContraintsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C96EDA2148A72A00D51152 /* ProgrammaticAutoLayoutContraintsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticAutoLayoutContraintsUITests.swift; sourceTree = "<group>"; };
+		08C96EDC2148A72A00D51152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C96EE82148B1AC00D51152 /* AutoLayoutConstraintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutConstraintsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08C96EB42148A72500D51152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C96EC82148A72A00D51152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C96ED32148A72A00D51152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08C96EAE2148A72400D51152 = {
+			isa = PBXGroup;
+			children = (
+				08C96EB92148A72500D51152 /* ProgrammaticAutoLayoutContraints */,
+				08C96ECE2148A72A00D51152 /* ProgrammaticAutoLayoutContraintsTests */,
+				08C96ED92148A72A00D51152 /* ProgrammaticAutoLayoutContraintsUITests */,
+				08C96EB82148A72500D51152 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08C96EB82148A72500D51152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08C96EB72148A72500D51152 /* ProgrammaticAutoLayoutContraints.app */,
+				08C96ECB2148A72A00D51152 /* ProgrammaticAutoLayoutContraintsTests.xctest */,
+				08C96ED62148A72A00D51152 /* ProgrammaticAutoLayoutContraintsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08C96EB92148A72500D51152 /* ProgrammaticAutoLayoutContraints */ = {
+			isa = PBXGroup;
+			children = (
+				08C96EBA2148A72500D51152 /* AppDelegate.swift */,
+				08C96EBE2148A72500D51152 /* Main.storyboard */,
+				08C96EC12148A72A00D51152 /* Assets.xcassets */,
+				08C96EC32148A72A00D51152 /* LaunchScreen.storyboard */,
+				08C96EC62148A72A00D51152 /* Info.plist */,
+				08C96EE82148B1AC00D51152 /* AutoLayoutConstraintsViewController.swift */,
+			);
+			path = ProgrammaticAutoLayoutContraints;
+			sourceTree = "<group>";
+		};
+		08C96ECE2148A72A00D51152 /* ProgrammaticAutoLayoutContraintsTests */ = {
+			isa = PBXGroup;
+			children = (
+				08C96ECF2148A72A00D51152 /* ProgrammaticAutoLayoutContraintsTests.swift */,
+				08C96ED12148A72A00D51152 /* Info.plist */,
+			);
+			path = ProgrammaticAutoLayoutContraintsTests;
+			sourceTree = "<group>";
+		};
+		08C96ED92148A72A00D51152 /* ProgrammaticAutoLayoutContraintsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08C96EDA2148A72A00D51152 /* ProgrammaticAutoLayoutContraintsUITests.swift */,
+				08C96EDC2148A72A00D51152 /* Info.plist */,
+			);
+			path = ProgrammaticAutoLayoutContraintsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08C96EB62148A72500D51152 /* ProgrammaticAutoLayoutContraints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08C96EDF2148A72A00D51152 /* Build configuration list for PBXNativeTarget "ProgrammaticAutoLayoutContraints" */;
+			buildPhases = (
+				08C96EB32148A72500D51152 /* Sources */,
+				08C96EB42148A72500D51152 /* Frameworks */,
+				08C96EB52148A72500D51152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgrammaticAutoLayoutContraints;
+			productName = ProgrammaticAutoLayoutContraints;
+			productReference = 08C96EB72148A72500D51152 /* ProgrammaticAutoLayoutContraints.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08C96ECA2148A72A00D51152 /* ProgrammaticAutoLayoutContraintsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08C96EE22148A72A00D51152 /* Build configuration list for PBXNativeTarget "ProgrammaticAutoLayoutContraintsTests" */;
+			buildPhases = (
+				08C96EC72148A72A00D51152 /* Sources */,
+				08C96EC82148A72A00D51152 /* Frameworks */,
+				08C96EC92148A72A00D51152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08C96ECD2148A72A00D51152 /* PBXTargetDependency */,
+			);
+			name = ProgrammaticAutoLayoutContraintsTests;
+			productName = ProgrammaticAutoLayoutContraintsTests;
+			productReference = 08C96ECB2148A72A00D51152 /* ProgrammaticAutoLayoutContraintsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08C96ED52148A72A00D51152 /* ProgrammaticAutoLayoutContraintsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08C96EE52148A72A00D51152 /* Build configuration list for PBXNativeTarget "ProgrammaticAutoLayoutContraintsUITests" */;
+			buildPhases = (
+				08C96ED22148A72A00D51152 /* Sources */,
+				08C96ED32148A72A00D51152 /* Frameworks */,
+				08C96ED42148A72A00D51152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08C96ED82148A72A00D51152 /* PBXTargetDependency */,
+			);
+			name = ProgrammaticAutoLayoutContraintsUITests;
+			productName = ProgrammaticAutoLayoutContraintsUITests;
+			productReference = 08C96ED62148A72A00D51152 /* ProgrammaticAutoLayoutContraintsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08C96EAF2148A72400D51152 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Olivia Bishop";
+				TargetAttributes = {
+					08C96EB62148A72500D51152 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					08C96ECA2148A72A00D51152 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 08C96EB62148A72500D51152;
+					};
+					08C96ED52148A72A00D51152 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 08C96EB62148A72500D51152;
+					};
+				};
+			};
+			buildConfigurationList = 08C96EB22148A72400D51152 /* Build configuration list for PBXProject "ProgrammaticAutoLayoutContraints" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08C96EAE2148A72400D51152;
+			productRefGroup = 08C96EB82148A72500D51152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08C96EB62148A72500D51152 /* ProgrammaticAutoLayoutContraints */,
+				08C96ECA2148A72A00D51152 /* ProgrammaticAutoLayoutContraintsTests */,
+				08C96ED52148A72A00D51152 /* ProgrammaticAutoLayoutContraintsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08C96EB52148A72500D51152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C96EC52148A72A00D51152 /* LaunchScreen.storyboard in Resources */,
+				08C96EC22148A72A00D51152 /* Assets.xcassets in Resources */,
+				08C96EC02148A72500D51152 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C96EC92148A72A00D51152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C96ED42148A72A00D51152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08C96EB32148A72500D51152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C96EE92148B1AC00D51152 /* AutoLayoutConstraintsViewController.swift in Sources */,
+				08C96EBB2148A72500D51152 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C96EC72148A72A00D51152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C96ED02148A72A00D51152 /* ProgrammaticAutoLayoutContraintsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C96ED22148A72A00D51152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C96EDB2148A72A00D51152 /* ProgrammaticAutoLayoutContraintsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08C96ECD2148A72A00D51152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08C96EB62148A72500D51152 /* ProgrammaticAutoLayoutContraints */;
+			targetProxy = 08C96ECC2148A72A00D51152 /* PBXContainerItemProxy */;
+		};
+		08C96ED82148A72A00D51152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08C96EB62148A72500D51152 /* ProgrammaticAutoLayoutContraints */;
+			targetProxy = 08C96ED72148A72A00D51152 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08C96EBE2148A72500D51152 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08C96EBF2148A72500D51152 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08C96EC32148A72A00D51152 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08C96EC42148A72A00D51152 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08C96EDD2148A72A00D51152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08C96EDE2148A72A00D51152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08C96EE02148A72A00D51152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProgrammaticAutoLayoutContraints/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = online.oliviabishop.ProgrammaticAutoLayoutContraints;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08C96EE12148A72A00D51152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProgrammaticAutoLayoutContraints/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = online.oliviabishop.ProgrammaticAutoLayoutContraints;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08C96EE32148A72A00D51152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProgrammaticAutoLayoutContraintsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = online.oliviabishop.ProgrammaticAutoLayoutContraintsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgrammaticAutoLayoutContraints.app/ProgrammaticAutoLayoutContraints";
+			};
+			name = Debug;
+		};
+		08C96EE42148A72A00D51152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProgrammaticAutoLayoutContraintsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = online.oliviabishop.ProgrammaticAutoLayoutContraintsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgrammaticAutoLayoutContraints.app/ProgrammaticAutoLayoutContraints";
+			};
+			name = Release;
+		};
+		08C96EE62148A72A00D51152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProgrammaticAutoLayoutContraintsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = online.oliviabishop.ProgrammaticAutoLayoutContraintsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProgrammaticAutoLayoutContraints;
+			};
+			name = Debug;
+		};
+		08C96EE72148A72A00D51152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProgrammaticAutoLayoutContraintsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = online.oliviabishop.ProgrammaticAutoLayoutContraintsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProgrammaticAutoLayoutContraints;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08C96EB22148A72400D51152 /* Build configuration list for PBXProject "ProgrammaticAutoLayoutContraints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C96EDD2148A72A00D51152 /* Debug */,
+				08C96EDE2148A72A00D51152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08C96EDF2148A72A00D51152 /* Build configuration list for PBXNativeTarget "ProgrammaticAutoLayoutContraints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C96EE02148A72A00D51152 /* Debug */,
+				08C96EE12148A72A00D51152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08C96EE22148A72A00D51152 /* Build configuration list for PBXNativeTarget "ProgrammaticAutoLayoutContraintsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C96EE32148A72A00D51152 /* Debug */,
+				08C96EE42148A72A00D51152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08C96EE52148A72A00D51152 /* Build configuration list for PBXNativeTarget "ProgrammaticAutoLayoutContraintsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C96EE62148A72A00D51152 /* Debug */,
+				08C96EE72148A72A00D51152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08C96EAF2148A72400D51152 /* Project object */;
+}
